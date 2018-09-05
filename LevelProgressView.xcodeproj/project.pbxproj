@@ -15,6 +15,7 @@
 		727D461C213EAB6C005681EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 727D461B213EAB6C005681EA /* main.m */; };
 		727D4626213EAB6C005681EA /* LevelProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 727D4625213EAB6C005681EA /* LevelProgressViewTests.m */; };
 		727D4631213EAB6C005681EA /* LevelProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 727D4630213EAB6C005681EA /* LevelProgressViewUITests.m */; };
+		727D4641213EABC7005681EA /* LevelProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 727D4640213EABC7005681EA /* LevelProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		727D462C213EAB6C005681EA /* LevelProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevelProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		727D4630213EAB6C005681EA /* LevelProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelProgressViewUITests.m; sourceTree = "<group>"; };
 		727D4632213EAB6C005681EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727D463F213EABC7005681EA /* LevelProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevelProgressView.h; sourceTree = "<group>"; };
+		727D4640213EABC7005681EA /* LevelProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				727D460D213EAB6B005681EA /* AppDelegate.m */,
 				727D460F213EAB6B005681EA /* ViewController.h */,
 				727D4610213EAB6B005681EA /* ViewController.m */,
+				727D463E213EABB0005681EA /* LevelProgressView */,
 				727D4612213EAB6B005681EA /* Main.storyboard */,
 				727D4615213EAB6C005681EA /* Assets.xcassets */,
 				727D4617213EAB6C005681EA /* LaunchScreen.storyboard */,
@@ -130,6 +134,15 @@
 				727D4632213EAB6C005681EA /* Info.plist */,
 			);
 			path = LevelProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		727D463E213EABB0005681EA /* LevelProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				727D463F213EABC7005681EA /* LevelProgressView.h */,
+				727D4640213EABC7005681EA /* LevelProgressView.m */,
+			);
+			path = LevelProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				727D4611213EAB6B005681EA /* ViewController.m in Sources */,
 				727D461C213EAB6C005681EA /* main.m in Sources */,
+				727D4641213EABC7005681EA /* LevelProgressView.m in Sources */,
 				727D460E213EAB6B005681EA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
